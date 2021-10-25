@@ -24,4 +24,12 @@
 
 ---
 
-Tenemos las siguientes formas. - var --- Forma no recomendable --- - int - double - int? --- Forma de decir que una variable puede recibir un valor nulo ---
+Tenemos las siguientes formas.
+
+    - var --- Forma no recomendable ---
+
+    - int
+
+    - double
+
+    - int? --- Forma de decir que una variable puede recibir un valor nulo ---
