@@ -152,15 +152,19 @@ Declarando variables de tipo Mapas
 ```dart
     main () {
         /**
-        * sets
+        * Maps
         **/
 
-        // Una diferencia que tiene los sets es que no pueden tener valores duplicados.
+        Map<String, dynamic> capiAmerica = {
+            'nombre': "Steve Royers",
+            'poder': "super Fuerza",
+            'nivel': 10000
+        };
 
-        //var heros2 = {'spiderman', 'san chi', 'Goku'};
+        // Otra forma de crear un mapa
+        Map<String, dynamic> dataTes = new Map();
 
-        Set<String> heros2 = {'spiderman', 'san chi', 'Goku'};
-
-        print(heros2);
+        // Agregando valores a un mapa
+        dataTes.addAll({'data1': 'data1', 'data2': 'data2' });
     }
 ```

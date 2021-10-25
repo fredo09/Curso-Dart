@@ -87,6 +87,7 @@ main() {
   // Otra forma de crear un mapa
   Map<String, dynamic> dataTes = new Map();
 
+  // Agregando valores a un mapa
   dataTes.addAll({'data1': 'data1', 'data2': 'data2'});
 
   print(capiAmerica);
